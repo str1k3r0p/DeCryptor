@@ -1,0 +1,4 @@
+pycryptodome
+pypiwin32
+colorama
+pyinstaller
