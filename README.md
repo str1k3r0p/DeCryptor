@@ -1,6 +1,6 @@
 # DeCryptor
 Browser Password Decryption Tool | Chrome Password Decryptor | Edge Password Decryptor | Tor Password Decryptor | 
-# Browser Password Extraction Tool
+# Browser Password Extraction Tool 
 ![image](https://github.com/user-attachments/assets/0f65a92f-1bd9-4aec-9077-43946c3a6274)
 
 This project is a Python-based tool that retrieves and decrypts stored passwords from various web browsers on a Windows machine. The decrypted passwords are saved into a CSV file for further use or analysis.
