@@ -38,23 +38,20 @@ pip install -r requirements.txt
 python Decrytor.py
 ```
 ## 0R
-If you are facing errors while installing the required dependencies, you can convert this tool to an exe file using ## **PyInstaller**
-Install _pyinstaller_ in your system using the following command.
-```bash
-pip install pyinstaller
-```
-Now run
-```bash
-pyinstaller --onefile --windowed path/to/file/Decrytor.py
-```
-Make sure you give the correct path for the file "Decrytor.py"
-The script will process each browser and output the decrypted passwords to `decrypted_password.csv`.
+If you are facing errors while installing the required dependencies, you can use exe file available at 
+
+The exe file will process each browser, system user and instantly output the decrypted passwords to `decrypted_password.csv`.
+![image](https://github.com/user-attachments/assets/f0eb9649-41c2-4bc9-bf1b-5d1eb3339f56)
+
+
 
 ### CSV Output Format
-| Index | Browser | URL         | Username | Password | User |
-|-------|---------|------------ |----------|----------|------|
+| Index | Browser | URL         | Username | Password | System User |
+|-------|---------|------------ |----------|----------|-------------|
 | 0     | chrome  | example.com | user1    | pass1    | MachineUser |
 | 1     | firefox | example.org | user2    | pass2    | MachineUser |
+| 2     | edge    | abc.org     | user2    | pass2    | MachineUser |
+| 3     | brave   | abc.com     | user2    | pass2    | MachineUser |
 
 ## Security Warning
 This tool accesses sensitive data and decrypts saved passwords. Use it responsibly and only on systems where you have appropriate permissions. Unauthorized access to personal data may be illegal.
