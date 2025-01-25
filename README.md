@@ -38,11 +38,11 @@ pip install -r requirements.txt
 python Decrytor.py
 ```
 ## 0R
-If you are facing errors while installing the required dependencies, you can use exe file available at 
+If you are facing errors while installing the required dependencies, you can use [Decrytor exe](https://github.com/str1k3r0p/DeCryptor/releases/download/password-decryptor-v1.0/DeCryptor.exe) file available at [Decryptor Releases](https://github.com/str1k3r0p/DeCryptor/releases/tag/password-decryptor-v1.0)
 
 The exe file will process each browser, system user and instantly output the decrypted passwords to `decrypted_password.csv`.
-![image](https://github.com/user-attachments/assets/f0eb9649-41c2-4bc9-bf1b-5d1eb3339f56)
 
+![image](https://github.com/user-attachments/assets/ff133c2d-2f03-45bc-a517-0835f9d04f59)
 
 
 ### CSV Output Format
